@@ -4,9 +4,10 @@ This repository contains core Java programs written to build strong fundamentals
 for automation testing and interviews.
 
 ## Topics Covered
-- Basics
+- JVM/JRE/JDK
+- Variables and Data-Types
+- Operators
 - Control Statements
-- Loops
 - Arrays
 - Strings
 - Methods
