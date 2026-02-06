@@ -1,6 +1,6 @@
 package study;
 // learnt about variable class, main class;
-public class D01 {
+public class Day01 {
 
 	public static void main(String[] args) {
 //		Write a Java program to print your name.
@@ -21,6 +21,7 @@ public class D01 {
 		int temp= y;
 		y=z;
 		z= temp;
+	
 		System.out.println("After Swapping Y= "+y+" Z = "+z);
 		
 //		Write a Java program to calculate the area of a circle.
