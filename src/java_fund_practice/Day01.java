@@ -1,5 +1,7 @@
-package study;
-// learnt about variable class, main class;
+package java_fund_practice;
+
+
+
 public class Day01 {
 
 	public static void main(String[] args) {
