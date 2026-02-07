@@ -27,7 +27,7 @@ public class Basic {
 	//ARRAY= store multiple values of same type
 	int[] marks = {80, 90, 85};
 
-	
+
 	}
 
 }
