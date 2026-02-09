@@ -1,51 +1,53 @@
 package java_fund_practice;
 
-
+import java.util.Scanner;
 
 public class Day01 {
 
 	public static void main(String[] args) {
-//		Write a Java program to print your name.
-		System.out.println("My name is Nidhi");
-
-//		Write a Java program to add two numbers.
-		int a= 10,b=20;
-		int sum =a+b;
-		System.out.println("Sum of 2 Numbers= "+sum);
 		
-//		Write a Java program to multiply two numbers.
-		int mul = a*b;
-		System.out.println("Multiplication of 2 numbers = "+mul);
 		
-//		Write a Java program to swap two numbers using a temporary variable.
-		int y= 10;
-		int z= 40;
-		int temp= y;
-		y=z;
-		z= temp;
+//Basics & Input/Output
+System.out.println("Q. Print “Hello World");	
+		System.out.println("Hello, World");
+System.out.println("Q. Take input from user and print it");
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter your age: ");
+		int age = sc.nextInt();
+		System.out.println("You entered: " + age);
+		
+System.out.println("Add, subtract, multiply, divide two numbers");
+		int num1 =25;
+		int num2 = 20;
+		System.out.println("When we multiple 2 numbers  "+num1*num2);
+		System.out.println("When we add 2 numbers  "+(num1+num2));
+		System.out.println("When we subtract 2 numbers  "+(num1-num2));
+		System.out.println("When we divide 2 numbers"+(num1/num2));
+		
+		
+		//Swap two numbers (using third variable)
+		int num3 = num1;
+		num1=num2;
+		num2=num3;
+		System.out.println("num1 = "+num1);
+		System.out.println("num2 = "+num2);
 	
-		System.out.println("After Swapping Y= "+y+" Z = "+z);
+		//Swap two numbers (without third variable)
+		num1 = num1+num2;
+		num2 = num1-num2;
+		num1 = num1-num2;
+		System.out.println("num1 = "+num1);
+		System.out.println("num2 = "+num2);
+	
 		
-//		Write a Java program to calculate the area of a circle.
-		int rad = 15;
-		double areac= 3.14*rad*rad;
-		System.out.println("Area of cirlce = "+areac);
-//		Write a Java program to calculate simple interest.
-		int p= 10;
-		int r = 20;
-		int t=12;
-		double si= (p*r*t)/100;
-		System.out.println("Simple Interest = "+si);
+	
+		
 //		Write a Java program to convert kilometers to miles.
 //		Write a Java program to convert Celsius to Fahrenheit.
 //		Write a Java program to check whether a number is even or odd.
 //		Write a Java program to check whether a number is positive, negative, or zero.
 
 		
-		String atr = "Apple";
-		String br = "le";
-
-		System.out.println("hello  "+atr.compareTo(br)); // negative value
 
 	}
 
