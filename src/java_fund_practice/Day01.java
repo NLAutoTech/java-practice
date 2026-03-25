@@ -41,13 +41,6 @@ System.out.println("Add, subtract, multiply, divide two numbers");
 	
 		
 	
-		
-//		Write a Java program to convert kilometers to miles.
-//		Write a Java program to convert Celsius to Fahrenheit.
-//		Write a Java program to check whether a number is even or odd.
-//		Write a Java program to check whether a number is positive, negative, or zero.
-
-		
 
 	}
 

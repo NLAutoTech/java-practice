@@ -12,6 +12,10 @@ package java_fundamentals;
 
 public class Basic {
 	public static void main(String[] args) {
+		
+//VARIABLE = A name container  use to store data.		
+		
+		
 //DATA-TYPE  = defines what kind of data the variable stores
 //2 type - PRIMITIVE/NON-PRIMITIVE
 //PRIMITIVE= Basic , built-in data-type. stores actual values. have fixed size. int		float	double	char	boolean
@@ -19,14 +23,14 @@ public class Basic {
 	float flonum = 10.1f;
 	double dubnum = 10.21;
 	char charb = 'a';
-	boolean boo = true;
+	boolean bool = true;
 	
 	
 //NON-PRIMITIVE = User-defined or complex types. stores reference of the data.size not fixed. default value null. can call methods. string		arrays		class	object	interface	collections
 	String sentence = "Hi my name is NIDHI";
 	//ARRAY= store multiple values of same type
 	int[] marks = {80, 90, 85};
-
+	
 
 	}
 
